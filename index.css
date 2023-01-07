@@ -1,0 +1,304 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Primary css starts here */
+.primary_btn{
+    width: 160px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Primary css ends from here */
+/* Header section style from here */
+.header_section{
+    background-image: url('./banner/banner1.png');
+    width: 100%;
+    height: 809px;
+    position: relative;
+
+}
+.header_all_information{
+   text-align: right;
+   position: absolute;
+   top: 27%;
+   left: 50%;
+   margin-right: 150px;
+   
+}
+.header_title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.header_description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Header section ended from here */
+
+/* Failure section start from here */
+.failure_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 150px;
+
+}
+.failure_section{
+  text-align: left;
+}
+.failure_description h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #444343;
+}
+.failure_description p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.failure_description .failure_list{
+    list-style-type: none;
+    margin-top: 20px;
+    color: #444343; 
+}
+.failure_list li{
+    margin-bottom: 15px;
+}
+.fa-check{
+    color: greenyellow;
+    margin-right: 10px;
+}
+/* Failure section ends from here */
+/* Plan section style start from here */
+.plan_section{
+ margin-top: 100px; 
+}
+.plan_header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plansList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 150px;
+}
+.plan_icon img{
+    width: 93px;
+    height: 93px;
+}
+.plan_title h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 10px;
+}
+.plan_description p{
+    font-size: 25px;
+    color: #737272;
+    margin-top: 10px;
+}
+/* plan section style end from here */
+/* positive mind section starts from here */
+ .positive_mind_section{
+    width: 1140px;
+    height: 300px;
+    background-image:linear-gradient(90deg, #F15B22 19.3%, rgba(241, 91, 34, 0) 119.3%), url(./images/watch.png);
+    
+    margin: 0 auto;
+   
+ }
+/* positive mind section  ends from here */
+
+/* extra section starts from here */
+ .extra_section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+ }
+ .allDescriptionsec{
+    margin-top: 40px;
+    border: 1px solid #737272;
+    width: 600px;
+    height: 500px;
+    padding: 40px;
+
+ }
+ .extraSectionTitle{
+    margin: 10px;
+    margin-bottom: 20px;
+ }
+ .imageWithDate{
+    background-image: url(./images/succes_andFailure.jpg);
+
+    width: 40%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFFFFF;
+    margin-top: 40px;
+ }
+
+ .all_desctitles{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: #737272;
+ }
+ .extrasectionAlldescription {
+    width: 500px;
+    height: 500px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #737272;
+ }
+ .extraSectionTitle span{
+    color: #F15B22;
+ }
+ .allDescriptionsec .primary_btn{
+    margin-top: 40px;
+ }
+ .allDescriptionsec .hover-btn{
+    width: 160px;
+    background:black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    margin: 20px;
+ }
+
+ .allDescriptionsec .hover-btn:hover{
+    background-color:navy;
+    color: #FFFFFF;
+ }
+ /* Positive mind section  starts */
+    .positive_mind_section{
+      padding: 100px;
+      
+    }
+    .positive_mind_section h2{
+        font-weight: 700;
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+    .positive_mind_section .call_now_btn{
+        width: 160px;
+        background:#fff;
+        border-radius: 5px;
+        padding: 10px ;
+        border: none;
+        height: 64px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #F15B22;
+        margin: 20px;
+        border: none;
+    }
+
+ /* Positive mind section ends */
+/* Extra section ends from here */
+
+/* Footer address  starts from here */
+.footer_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height:577px;
+    background-color: #151414;
+    color: #FFFFFF;
+    gap: 50px;
+}
+
+.socailMedia{
+   display: flex;
+   gap: 50px;
+}
+
+.footer_addrss h2{
+font-weight: 700;
+font-size: 45px; 
+}
+.footerDescription p{
+font-weight: 400;
+font-size: 16px;
+width: 445px;
+height: 78px;
+}
+.email_addres{
+font-weight: 400;
+font-size: 16px; 
+
+}
+.phoneNumber{
+font-weight: 400;
+font-size: 16px; 
+}
+.footer_addrss{
+    width: 50%;
+}
+.footer_contact{
+ margin-top: 200px;
+ margin-bottom: 300px;
+ 
+}
+.footer_contact h2{
+font-weight: 600;
+font-size: 25px; 
+}
+.footer_contact input{
+margin-top: 10px;
+width: 325px;
+height: 64px;
+margin-bottom: 10px;
+background-color: #151414;
+color: cornsilk;
+padding: 10px;
+border-radius:5px ;
+}
+.footer_contact button{
+    width: 160px;
+    background:#FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    margin: 20px;
+    border: none;
+    display: block;
+}
+.footer_contact button:hover{
+    background-color:grey  ;
+    color: red;
+    border: 2px solid #ffff;
+}
+/* Footer address ends from here */
